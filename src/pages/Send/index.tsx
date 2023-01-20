@@ -201,7 +201,7 @@ const Send = (): ReactElement => {
                 Warning! This is a fork of the official{' '}
                 <a href="https://classic-bridge.terra.money/" target="blank">
                   Terra Classic Bridge
-                </a>
+                </a>{' '}
                 front-end app. The host of this front-end has no control over,
                 and makes no warranty for use of, this front-end or underlying
                 smart contracts. You agree that by using this app, you do so at
