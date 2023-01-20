@@ -28,7 +28,7 @@ import SendStore from 'store/SendStore'
 import useSelectWallet from 'hooks/useSelectWallet'
 import { BlockChainType } from 'types/network'
 import classicSvg from '../../images/classic.svg'
-import { InfoElement, WarningInfo } from './SendForm/WarningInfo'
+import { InfoElement, WarningInfo, DangerElement } from './SendForm/WarningInfo'
 
 const StyledProcessCircle = styled.div`
   height: 128px;
@@ -197,6 +197,14 @@ const Send = (): ReactElement => {
         ) : (
           <>
             <div style={{ marginTop: -40 }}>
+              <DangerElement>
+                Warning! This is a fork of the official{' '}
+                <a href="https://classic-bridge.terra.money/" target="blank">
+                  Terra Classic Bridge
+                </a>
+                . You agree that by using this app, you do so at your own risk.
+                The host of this page offers no warranty.
+              </DangerElement>
               <InfoElement>
                 This is Bridge Classic, if you want to use bridge with Terra 2.0
                 please visit{' '}
