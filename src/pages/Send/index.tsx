@@ -202,8 +202,10 @@ const Send = (): ReactElement => {
                 <a href="https://classic-bridge.terra.money/" target="blank">
                   Terra Classic Bridge
                 </a>
-                . You agree that by using this app, you do so at your own risk.
-                The host of this page offers no warranty.
+                front-end app. The host of this front-end has no control over,
+                and makes no warranty for use of, this front-end or underlying
+                smart contracts. You agree that by using this app, you do so at
+                your own risk.
               </DangerElement>
               <InfoElement>
                 This is Bridge Classic, if you want to use bridge with Terra 2.0
